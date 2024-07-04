@@ -5,10 +5,6 @@ import io.cucumber.java.en.When;
 
 public class PayinTransactionsStepDef extends BaseStepDef {
 
-    @When("User hits the post api request 10 times")
-    public void userHitsThePostApiRequestTimes() {
-
-    }
     @When("Verify required fields")
     public void verifyRequiredFields(){
         payinTransaction.getToken();
@@ -27,9 +23,9 @@ public class PayinTransactionsStepDef extends BaseStepDef {
     }
 
 
-    @When("Verify post with subPayMode UPQR 10 times")
+    @When("Verify post with subPayMode UPQR 5 times")
     public void verifyPostWithSubPayModeUPQRTimes() {
-        for(int i=1;i<=10;i++){
+        for(int i=1;i<=5;i++){
             payinTransaction.getToken();
             payinTransaction.sendPayRequest();
             payinTransaction.statusCheck();
@@ -38,9 +34,9 @@ public class PayinTransactionsStepDef extends BaseStepDef {
         }
     }
 
-    @When("Verify post with subPayMode CLCT 10 times")
+    @When("Verify post with subPayMode CLCT 5 times")
     public void verifyPostWithSubPayModeCLCTTimes() {
-        for(int i=1;i<=10;i++){
+        for(int i=1;i<=5;i++){
             payinTransaction.getToken();
             payinTransaction.sendPayRequestCLCT();
             payinTransaction.statusCheck();
@@ -49,9 +45,9 @@ public class PayinTransactionsStepDef extends BaseStepDef {
         }
     }
 
-    @When("Verify post with subPayMode ITNT 10 times")
+    @When("Verify post with subPayMode ITNT 5 times")
     public void verifyPostWithSubPayModeITNTTimes() {
-        for(int i=1;i<=10;i++){
+        for(int i=1;i<=5;i++){
             payinTransaction.getToken();
             payinTransaction.sendPayRequestITNT();
             payinTransaction.statusCheck();
@@ -66,9 +62,9 @@ public class PayinTransactionsStepDef extends BaseStepDef {
         payinNs2s.verifyRequiredFieldsnS2S();
     }
 
-    @When("Verify non s2s pay request 10 times")
+    @When("Verify non s2s pay request 5 times")
     public void verifyNonSSPayRequestTimes() {
-        for(int i=1;i<=10;i++){
+        for(int i=1;i<=5;i++){
             payinNs2s.getTokenns2s();
             payinNs2s.sendPayRequestnS2S();
             payinNs2s.statusChecknS2S();

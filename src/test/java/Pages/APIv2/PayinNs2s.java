@@ -272,7 +272,7 @@ public class PayinNs2s {
         Assert.assertEquals(statusCodeData,"0000");
         System.out.println("Extracted Token: " + token);
     }
-    public static WebDriver driver;
+    WebDriver driver;
     public void openUrl(){
 
         ChromeOptions options = new ChromeOptions();
