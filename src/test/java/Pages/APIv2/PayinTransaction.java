@@ -64,7 +64,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -113,7 +113,7 @@ public class PayinTransaction {
         requestParams.put("sub_pay_mode", "ITNT");
         requestParams.put("currency", "INR");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -163,7 +163,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
 
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -333,7 +333,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -362,7 +362,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -392,7 +392,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -424,7 +424,7 @@ public class PayinTransaction {
 //        requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -456,7 +456,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
 //        requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -486,7 +486,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-//        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+//        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -516,7 +516,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
 //        requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -547,7 +547,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
 //        requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -578,7 +578,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
 //        requestParams.put("cust_country", "India");
@@ -609,7 +609,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -639,7 +639,7 @@ public class PayinTransaction {
         requestParams.put("currency", "INR");
         requestParams.put("vpa", "siddharth@ybl");
         requestParams.put("merchant_id", "UM1PGA1CZ25YW7E");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_country", "India");
@@ -675,7 +675,7 @@ public class PayinTransaction {
 
 
         Random random = new Random();
-        int randNum = random.nextInt(10000);
+        int randNum = random.nextInt(10000000);
         JSONObject requestParams = new JSONObject();// Cast
         requestParams.put("amount", "10");
         requestParams.put("pay_mode", "UP");
@@ -731,7 +731,7 @@ public class PayinTransaction {
 
 
         Random random = new Random();
-        int randNum = random.nextInt(10000);
+        int randNum = random.nextInt(10000000);
         JSONObject requestParams = new JSONObject();// Cast
         requestParams.put("amount", "10");
         requestParams.put("pay_mode", "UP");
