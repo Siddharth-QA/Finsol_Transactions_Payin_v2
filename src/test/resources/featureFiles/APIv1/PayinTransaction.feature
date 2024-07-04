@@ -1,6 +1,6 @@
 Feature:  Payin v2
 
-  @APIx
+  @API
   Scenario: Verify s2s INR
     When Verify post with subPayMode UPQR 5 times
     When Verify required fields
