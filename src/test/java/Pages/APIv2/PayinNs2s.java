@@ -61,7 +61,7 @@ public class PayinNs2s {
         requestParams.put("amount", "10");
         requestParams.put("currency", "INR");
         requestParams.put("merchant_id", "UMTZNOPHBH5K8C1");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_phone", "9856745682");
@@ -91,7 +91,7 @@ public class PayinNs2s {
 
         requestParams.put("amount", "10");
         requestParams.put("merchant_id", "UMTZNOPHBH5K8C1");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_phone", "9856745682");
@@ -122,7 +122,7 @@ public class PayinNs2s {
         requestParams.put("amount", "10");
         requestParams.put("currency", "INR");
         requestParams.put("merchant_id", "UMTZNOPHBH5K8C1");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
 //        requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_phone", "9856745682");
@@ -153,7 +153,7 @@ public class PayinNs2s {
         requestParams.put("amount", "10");
         requestParams.put("currency", "INR");
         requestParams.put("merchant_id", "UMTZNOPHBH5K8C1");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_phone", "9856745682");
@@ -198,7 +198,7 @@ public class PayinNs2s {
         requestParams.put("amount", "10");
         requestParams.put("currency", "INR");
         requestParams.put("merchant_id", "UMTZNOPHBH5K8C1");
-        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000));
+        requestParams.put("order_id", "ORD000087654"+random.nextInt(10000000));
         requestParams.put("cust_name", "Siddharth");
         requestParams.put("cust_email", "siddharth@gmail.com");
         requestParams.put("cust_phone", "9856745682");
@@ -375,7 +375,7 @@ public class PayinNs2s {
 
 
         Random random = new Random();
-        int randNum = random.nextInt(10000);
+        int randNum = random.nextInt(10000000);
         JSONObject requestParams = new JSONObject();// Cast
         requestParams.put("amount", "10");
         requestParams.put("currency", "INR");
@@ -432,7 +432,7 @@ public class PayinNs2s {
 
 
         Random random = new Random();
-        int randNum = random.nextInt(10000);
+        int randNum = random.nextInt(10000000);
         JSONObject requestParams = new JSONObject();// Cast
         requestParams.put("amount", "10");
         requestParams.put("currency", "INR");
